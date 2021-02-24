@@ -12,6 +12,25 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="plants.html">Plants</a>         
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="cat.html">Cat</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dog.html">Dog</a>
+                </li>         
+              </ul>
+            </div>
+        </nav>
         <h1>
             Plants by Hema Sree Rathnam Machha
         </h1>
@@ -44,9 +63,9 @@
                 <img class="img-fluid" src="Hollyhock.JPG" alt="ResponsiveImage3" width="400px" height="400px">
             </div>
             <div class="container">
-                <img class="img-thumbnail" src="honesty.JPG" alt="ResponsiveImage1" width="200px" height="200px">
-                <img class="img-thumbnail" src="MossRose.JPG" alt="ResponsiveImage2" width="200px" height="200px">
-                <img class="img-thumbnail" src="Hollyhock.JPG" alt="ResponsiveImage3" width="200px" height="200px">
+                <img class="img-thumbnail" src="honesty.JPG" alt="ThumbnailImage1" width="200px" height="200px">
+                <img class="img-thumbnail" src="MossRose.JPG" alt="ThumbnailImage2" width="200px" height="200px">
+                <img class="img-thumbnail" src="Hollyhock.JPG" alt="ThumbnailImage3" width="200px" height="200px">
             </div>
             <table class="table table-bordered table-hover table-active">
                 <caption>Plant, City and Food</caption>
@@ -104,21 +123,32 @@
                 <div class="btn btn-info">A</div>
             </div>
             <br>
-            <div class="btn-toolbar" role="toolbar" aria-label="Letter with button groups"></div>
+            <div class="btn-toolbar" role="toolbar" aria-label="Letter with button groups">
                 <div class="btn-group mr-2" role="group" aria-label="First group">
                   <button type="button" class="btn btn-success">M</button>
-                  <button type="button" class="btn btn-success">A</button>
-                  <button type="button" class="btn btn-success">C</button>
+                  <button type="button" class="btn btn-success">H</button>
+                  <button type="button" class="btn btn-success">H</button>
                 </div>
                 <div class="btn-group mr-2" role="group" aria-label="Second group">
-                  <button type="button" class="btn btn-warning">H</button>
-                  <button type="button" class="btn btn-warning">H</button>             
+                  <button type="button" class="btn btn-warning">A</button>
+                  <button type="button" class="btn btn-warning">C</button>             
                 </div>
                 <div class="btn-group" role="group" aria-label="Third group">
                   <button type="button" class="btn btn-danger">A</button>
                 </div>
             </div>
+            <br>
+            <div class="dropdown">
+                <button type="button" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="cat.html">Cat Page</a>
+                  <a class="dropdown-item" href="dog.html">Dog page</a>
+                </div>
+              </div>
+            <br>
+            
         </div>
-    </div>
     </body>
 </html>
